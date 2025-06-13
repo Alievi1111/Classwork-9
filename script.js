@@ -51,5 +51,6 @@ let clickCount = 0;
 
 countBtn.addEventListener("click", function () {
   clickCount++;
+
   counter.textContent = clickCount;
 });
